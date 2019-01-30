@@ -1,0 +1,37 @@
+body{ 
+    background-color:rgb(29,97,168);
+}
+h1{ 
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+   
+}
+.grid{ 
+   display: grid; 
+   grid-template-columns: auto auto auto; 
+   padding-left: 150px; 
+   width: 500px; 
+   height: 500px;
+   
+}
+.grid-square{ 
+    border: 1px solid rgb(247, 243, 10); 
+    padding: 10px; 
+    font-family: 'Bungee Inline', cursive;
+    font-size: 30px; 
+    text-align: center; 
+    padding-top: 40%; 
+    
+}
+#reset-grid{ 
+    padding-top: 10px; 
+    padding-left: 10px; 
+    text-align: center;
+}
+#players-turn{ 
+    font-family: 'Chewy', cursive;
+    font-size: 36px;
+    text-align: center; 
+}
